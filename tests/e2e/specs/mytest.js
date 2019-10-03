@@ -3,6 +3,6 @@ describe('My First Test', function() {
     cy.visit('/')
   })
   it('looks inside <title> tag', () => {
-    cy.get('body').should('contain', 'Hello xWorld! Howdy Everyone!!!')
+    cy.get('body').should('contain', 'Hello World! Howdy Everyone!!!')
   })
 })
